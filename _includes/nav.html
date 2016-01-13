@@ -43,7 +43,7 @@
                       <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                  {% for item in site.semesters %}
+                  {% for item in site.semesters reversed %}
                       <li role="presentation">
                           <a href="{{ item.url | prepend:site.baseurl}}" role="menuitem" tabindex="-1">
                               {{ item.semester }}

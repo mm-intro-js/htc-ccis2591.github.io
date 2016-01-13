@@ -22,7 +22,7 @@ layout: page
 
     {% for lab in session.labs %}
     <p>
-      <a href="{{ lab.url | prepend: site.baseurl }}">In-class Assignment {% if lecture.notes_url %}: {{ lab.title }} {% endif %}</a>
+      <a href="{{ lab.url | prepend: site.baseurl }}">In-class Assignment {% if lab.title %}: {{ lab.title }} {% endif %}</a>
     </p>
     {% endfor %}
 
@@ -30,7 +30,7 @@ layout: page
     <p>
       Read:
       {% if item.url %}
-      <a href="{{ session.practice_url | prepend: site.baseurl }}">{{ item.title }}</a>
+      <a href="{{ item.url }}">{{ item.title }}</a>
       {% else %}
       {{ item.title }}
       {% endif %}
@@ -43,7 +43,7 @@ layout: page
     </p>
     {% endif %}
 
-    {% if session.practice_url %}
+    {% if session.repository_url %}
     <p>
       <a href="{{ session.repository_url }}">Homework Assignment</a>
     </p>

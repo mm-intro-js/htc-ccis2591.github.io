@@ -1,5 +1,5 @@
 ---
-semester: "Spring 2015"
+semester: "Spring 2016"
 
 
 sessions:
@@ -11,14 +11,14 @@ sessions:
 #        slides_url:  "/assets/slides/welcome.pdf"
     labs:
       -
-        lab_title: "GitHub"
-        lab_url: "/lecture_notes/gitHub.html"
+        title: "GitHub"
+        url: "/lecture_notes/gitHub.html"
 
     readings:
       -
-        title: "Read Chapters 1, 2, & 4 for HW"
+        title: "Chapters 1, 2, & 4 to do HW"
       -
-        title: "Read Chapter 3 before coming to class"
+        title: "Chapter 3 before coming to class"
 
     repository_url: "https://github.com/htc-ccis2591/basic-javascript"
 
