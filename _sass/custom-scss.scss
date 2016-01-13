@@ -1,0 +1,41 @@
+// Add your own custom CSS here.
+@import "pygments-tomorrow";
+#htc-button {
+    background-image: url(../htc-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 34px;
+    margin-top: 14px;
+}
+
+#htc-button:hover {
+    border-color: #464646;
+}
+
+#quicklinks {
+    text-align: center;
+}
+
+#updates {
+    text-align: center;
+}
+
+#overview {
+}
+
+#grades {
+}
+
+#instructor {
+    
+}
+
+#resources {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+img.emoji {
+    display: inline;
+}

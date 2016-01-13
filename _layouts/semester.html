@@ -1,0 +1,59 @@
+---
+layout: page
+---
+
+{% for session in page.sessions %}
+<section>
+  <h1 class="header-bar">Session {{ forloop.index }}</h1>
+  <div class="text-center">
+    {% for lecture in session.lectures %}
+    <p>{{ lecture.title }}{% if lecture.slides_url or lecture.notes_url%}:{% endif %}
+      {% if lecture.slides_url %}
+      <a href="{{ lecture.slides_url | prepend: site.baseurl }}">Slides</a>
+      {% endif %}
+      {% if lecture.slides_url and lecture.notes_url %}
+      &nbsp;|&nbsp;
+      {% endif %}
+      {% if lecture.notes_url %}
+      <a href="{{ lecture.notes_url | prepend: site.baseurl }}">Notes</a>
+      {% endif %}
+    </p>
+    {% endfor %}
+
+    {% for lab in session.labs %}
+    <p>
+      <a href="{{ lab.url | prepend: site.baseurl }}">In-class Assignment {% if lecture.notes_url %}: {{ lab.title }} {% endif %}</a>
+    </p>
+    {% endfor %}
+
+    {% for item in session.readings %}
+    <p>
+      Read:
+      {% if item.url %}
+      <a href="{{ session.practice_url | prepend: site.baseurl }}">{{ item.title }}</a>
+      {% else %}
+      {{ item.title }}
+      {% endif %}
+    </p>
+    {% endfor %}
+
+    {% if session.practice_url %}
+    <p>
+      <a href="{{ session.practice_url | prepend: site.baseurl }}">Homework Assignment</a>
+    </p>
+    {% endif %}
+
+    {% if session.practice_url %}
+    <p>
+      <a href="{{ session.repository_url }}">Homework Assignment</a>
+    </p>
+    {% endif %}
+
+    {% if session.additional_url %}
+    <p>
+      <a href="{{ session.additional_url | prepend: site.baseurl }}">Additional Resources</a>
+    </p>
+    {% endif %}
+  </div>
+</section>
+{% endfor %}

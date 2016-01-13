@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header class="row row-centered">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <h1> {{ site.course_number }} </h1>
+        <h1> {{ site.course_full_title }} </h1>
+        <h1> {% if page.semester %}{{ page.semester }}{% endif %} </h1>
+    </div>
+    <div class="col-md-3"></div>
+</header>
+
+<article class="post-content">
+  {{ content }}
+</article>

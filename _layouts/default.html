@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    {% include nav.html %}
+
+    <!-- Content Area -->
+    <div class="content">
+      <div class="container-fluid">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+</html>

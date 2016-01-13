@@ -1,0 +1,51 @@
+baseurl: ""             # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "https://htc-ccis2591.github.io"  # the base hostname & protocol for your site
+
+title: "JavaScript"
+
+course_full_title: "JavaScript"
+course_number: CCIS 2591
+semester: Spring 2016
+
+gems:
+  - jemoji
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: :title
+
+# Color scheme based on http://flatuicolors.com/.
+# Possible values:
+# - silver
+# - gold
+# - midnight
+# - turquoise
+# - green
+# - blue
+# - purple
+# - orange
+# - red
+theme_color: orange
+
+collections:
+  semesters:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "semesters"
+    values:
+      layout: "semester"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
