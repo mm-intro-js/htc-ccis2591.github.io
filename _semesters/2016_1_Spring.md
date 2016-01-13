@@ -1,5 +1,5 @@
 ---
-semester: "Spring 2015"
+semester: "Spring 2016"
 
 
 sessions:
