@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% for session in page.sessions %}
-<section>
+<section id="session{{ forloop.index }}">
   <h1 class="header-bar">Session {{ forloop.index }}</h1>
   <div class="text-center">
     {% for lecture in session.lectures %}
