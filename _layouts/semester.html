@@ -22,7 +22,7 @@ layout: page
 
     {% for lab in session.labs %}
     <p>
-      <a href="{{ lab.url | prepend: site.baseurl }}">In-class Assignment {% if lab.title %}: {{ lab.title }} {% endif %}</a>
+      <a href="{{ lab.url }}">In-class Assignment {% if lab.title %}: {{ lab.title }} {% endif %}</a>
     </p>
     {% endfor %}
 

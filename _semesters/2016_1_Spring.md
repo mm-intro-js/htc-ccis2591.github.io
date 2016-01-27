@@ -38,4 +38,20 @@ sessions:
 
     repository_url: "https://github.com/htc-ccis2591/simple-functions"
 
+
+  - #Session 3
+    lectures:
+      -
+        title: "DOM Review & Access Methods"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/welcome.pdf"
+
+    readings:
+      -
+        title: "Chapter 5 & 6"
+    labs:
+      -
+        url: "https://github.com/htc-ccis2591/dom-access"
+
+    repository_url: "https://github.com/htc-ccis2591/grocery-list"
 ---
