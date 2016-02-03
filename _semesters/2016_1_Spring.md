@@ -45,7 +45,6 @@ sessions:
         title: "DOM Review & Access Methods"
 #        notes_url: "/lecture_notes/welcome.html"
 #        slides_url:  "/assets/slides/welcome.pdf"
-
     readings:
       -
         title: "Chapter 5 & 6"
@@ -55,20 +54,18 @@ sessions:
 
     repository_url: "https://github.com/htc-ccis2591/grocery-list"
 
+  - #Session 4
+    lectures:
+      -
+        title: "jQuery Intro"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/welcome.pdf"
 
+    readings:
+      -
+        title: "Chapter 7"
 
-    - #Session 4
-      lectures:
-        -
-          title: "jQuery Intro"
-  #        notes_url: "/lecture_notes/welcome.html"
-  #        slides_url:  "/assets/slides/welcome.pdf"
+    repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
 
-      readings:
-        -
-          title: "Chapter 7"
-
-      repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
-
-      repository_url: "https://github.com/htc-ccis2591/jquery-fav-things"
+    repository_url: "https://github.com/htc-ccis2591/jquery-fav-things"
 ---
