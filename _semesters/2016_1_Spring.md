@@ -65,7 +65,9 @@ sessions:
       -
         title: "Chapter 7"
 
-    repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
+    project:
+        title: "Project 1: jQuery Favorite Things"
+        url: "https://github.com/htc-ccis2591/jquery-fav-things"
 
-    repository_url: "https://github.com/htc-ccis2591/jquery-fav-things"
+    repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
 ---

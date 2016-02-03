@@ -49,6 +49,12 @@ layout: page
     </p>
     {% endif %}
 
+    {% if session.project %}
+    <p>
+      <a href="{{ session.project.url }}">{{ session.project.title }}</a>
+    </p>
+    {% endif %}
+
     {% if session.additional_url %}
     <p>
       <a href="{{ session.additional_url | prepend: site.baseurl }}">Additional Resources</a>
