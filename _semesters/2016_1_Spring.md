@@ -54,4 +54,21 @@ sessions:
         url: "https://github.com/htc-ccis2591/dom-access"
 
     repository_url: "https://github.com/htc-ccis2591/grocery-list"
+
+
+
+    - #Session 4
+      lectures:
+        -
+          title: "jQuery Intro"
+  #        notes_url: "/lecture_notes/welcome.html"
+  #        slides_url:  "/assets/slides/welcome.pdf"
+
+      readings:
+        -
+          title: "Chapter 7"
+
+      repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
+
+      repository_url: "https://github.com/htc-ccis2591/jquery-fav-things"
 ---
