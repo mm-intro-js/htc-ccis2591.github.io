@@ -57,9 +57,9 @@ sessions:
   - #Session 4
     lectures:
       -
-        title: "jQuery Intro"
+        title: "Events & jQuery Intro"
 #        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/welcome.pdf"
+        slides_url:  "/assets/slides/events-jquery-intro.pdf"
 
     readings:
       -
