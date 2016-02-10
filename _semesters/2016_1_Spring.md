@@ -70,4 +70,20 @@ sessions:
         url: "https://github.com/htc-ccis2591/jquery-fav-things"
 
     repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
+
+  - #Session 5
+    lectures:
+      -
+        title: "More jQuery & Lab Time"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/events-jquery-intro.pdf"
+
+    readings:
+      -
+        title: "Review for Next Week's Exam"
+
+    project:
+        title: "Project 1: jQuery Favorite Things"
+        url: "https://github.com/htc-ccis2591/jquery-fav-things"
+
 ---
