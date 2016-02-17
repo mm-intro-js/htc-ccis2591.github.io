@@ -86,4 +86,15 @@ sessions:
         title: "Project 1: jQuery Favorite Things"
         url: "https://github.com/htc-ccis2591/jquery-fav-things"
 
+  - #Session 6
+    lectures:
+      -
+        title: "Exam 1 & Project Presentations"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/events-jquery-intro.pdf"
+
+    readings:
+      -
+        title: "Chapter 8"
+
 ---
