@@ -102,7 +102,7 @@ sessions:
       -
         title: "Ajax & JSON"
 #        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/events-jquery-intro.pdf"
+        slides_url:  "/assets/slides/ajax-jquery-ch8.pdf"
 
     repository_url: "https://github.com/htc-ccis2591/js-data"
 
