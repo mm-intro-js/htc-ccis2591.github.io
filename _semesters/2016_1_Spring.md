@@ -97,4 +97,17 @@ sessions:
       -
         title: "Chapter 8"
 
+  - #Session 7
+    lectures:
+      -
+        title: "Ajax & JSON"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/events-jquery-intro.pdf"
+
+    repository_url: "https://github.com/htc-ccis2591/js-data"
+
+    readings:
+      -
+        title: "Chapter 9"
+
 ---
