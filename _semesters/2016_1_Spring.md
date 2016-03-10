@@ -110,4 +110,22 @@ sessions:
       -
         title: "Chapter 9"
 
+    project:
+        title: "Project 2: JSON Things"
+        url: "https://github.com/htc-ccis2591/jquery-project2"
+
+  - #Session 8
+    lectures:
+      -
+        title: "Web APIs"
+#        notes_url: "/lecture_notes/welcome.html"
+        slides_url:  "/assets/slides/web-apis-ch9.pdf"
+
+    readings:
+      -
+        title: "Chapter 10"
+
+    project:
+        title: "Project 2: JSON Things"
+        url: "https://github.com/htc-ccis2591/jquery-project2"
 ---
