@@ -128,4 +128,22 @@ sessions:
     project:
         title: "Project 2: JSON Things"
         url: "https://github.com/htc-ccis2591/jquery-project2"
+
+  - #Session 9
+    lectures:
+      -
+        title: "Project 2 Presentations"
+      -
+        title: "Error Handling & Debugging"
+#        notes_url: "/lecture_notes/welcome.html"
+        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
+
+  - #Session 10
+    lectures:
+      -
+        title: "Exam 2"
+      -
+        title: "More Web API's"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
 ---
