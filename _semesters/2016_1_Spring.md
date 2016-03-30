@@ -144,6 +144,8 @@ sessions:
         title: "Exam 2"
       -
         title: "More Web API's"
+
+    repository_url: "https://github.com/htc-ccis2591/simple-weather-app"
 #        notes_url: "/lecture_notes/welcome.html"
 #        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
 ---
