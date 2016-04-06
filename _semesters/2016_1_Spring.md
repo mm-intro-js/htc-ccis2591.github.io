@@ -148,4 +148,17 @@ sessions:
     repository_url: "https://github.com/htc-ccis2591/simple-weather-app"
 #        notes_url: "/lecture_notes/welcome.html"
 #        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
+
+  - #Session 11
+    lectures:
+      -
+        title: "Angular 2 & TypeScript"
+        slides_url:  "/assets/slides/angular2.pdf"
+        notes_url: "/lecture_notes/angularResources.html"
+
+    repository_url: "https://github.com/htc-ccis2591/simple-angular2"
+#        notes_url: "/lecture_notes/welcome.html"
+#        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
+
+
 ---
