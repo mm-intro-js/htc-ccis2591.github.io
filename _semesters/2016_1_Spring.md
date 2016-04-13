@@ -161,4 +161,13 @@ sessions:
 #        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
 
 
+  - #Session 12
+    lectures:
+      -
+        title: "Extra Credit: Hit or Miss Rice Balls (on D2L)"
+
+    project:
+        title: "Project 3: Web API Application"
+        url: "https://github.com/htc-ccis2591/web-api-app"
+
 ---
