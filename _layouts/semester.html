@@ -45,11 +45,11 @@ layout: page
 
     {% if session.practice %}
     <p>
-      <a href="{{ session.practice.repository_url }}">
+      {% if session.practice.repository_url %}<a href="{{ session.practice.repository_url }}">{% else %}<p>{% endif %}
         {% if session.practice.name %} {{session.practice.name}}
         {% else %}Homework Assignment
         {% endif %}
-      </a>
+      {% if session.practice.repository_url %}</a>{% else %}</p>{% endif %}
     </p>
     {% endif %}
 
