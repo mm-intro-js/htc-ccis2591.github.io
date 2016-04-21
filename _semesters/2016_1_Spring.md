@@ -170,4 +170,30 @@ sessions:
         title: "Project 3: Web API Application"
         url: "https://github.com/htc-ccis2591/web-api-app"
 
+
+  - #Session 12 - 14
+    lectures:
+      -
+        title: "Project 3 Open Lab 4/13, 4/20 & 4/27"
+
+    project:
+      url: "/assets/assignments/webdata.html"
+      title: "Project 3:  Web Data Project"
+
+
+  - #Session 15
+    lectures:
+      -
+        title: "Final Exam 5/4"
+
+    project:
+      url: "/assets/assignments/webdata.html"
+      title: "Project 3:  Web Data Project"
+
+
+  - #Session 16
+    lectures:
+      -
+        title: "Project 3 Presentations 5/11"
+
 ---
