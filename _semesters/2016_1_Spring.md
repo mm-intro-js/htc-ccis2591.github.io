@@ -194,6 +194,6 @@ sessions:
   - #Session 16
     lectures:
       -
-        title: "Project 3 Presentations 5/11"
+        title: "Project 3: Presentations 5/11"
 
 ---
