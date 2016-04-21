@@ -164,24 +164,16 @@ sessions:
       name: "HW 8 - Angular 2 Tutorial"
 
 
-  - #Session 12
+  - #Session 12 - 14
     lectures:
       -
         title: "Extra Credit: Hit or Miss Rice Balls (on D2L)"
-
-    project:
-        title: "Project 3: Web API Application"
-        url: "https://github.com/htc-ccis2591/web-api-app"
-
-
-  - #Session 12 - 14
-    lectures:
       -
         title: "Project 3 Open Lab 4/13, 4/20 & 4/27"
 
     project:
-      url: "/assets/assignments/webdata.html"
-      title: "Project 3:  Web Data Project"
+        title: "Project 3: Web API Application"
+        url: "https://github.com/htc-ccis2591/web-api-app"
 
 
   - #Session 15
