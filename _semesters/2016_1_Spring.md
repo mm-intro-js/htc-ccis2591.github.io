@@ -138,8 +138,8 @@ sessions:
         title: "Error Handling & Debugging"
         slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
 
-      practice:
-        name: "HW 6 - JavaScript Error Handling Quiz (on D2L)"
+    practice:
+      name: "HW 6 - JavaScript Error Handling Quiz (on D2L)"
 
   - #Session 10
     lectures:
