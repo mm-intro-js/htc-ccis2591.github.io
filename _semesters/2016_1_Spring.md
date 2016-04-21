@@ -194,7 +194,7 @@ sessions:
   - #Session 16
     lectures:
       -
-        title: "Project 3: Presentations 5/11"
+        title: "Project Presentations 5/11"
 
     project:
       url: "/assets/assignments/webdata.html"
