@@ -196,4 +196,7 @@ sessions:
       -
         title: "Project 3: Presentations 5/11"
 
+    project:
+      url: "/assets/assignments/webdata.html"
+      title: "Project 3:  Web Data Project"
 ---
