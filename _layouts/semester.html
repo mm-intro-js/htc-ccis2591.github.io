@@ -43,9 +43,13 @@ layout: page
     </p>
     {% endif %}
 
-    {% if session.repository_url %}
+    {% if session.practice %}
     <p>
-      <a href="{{ session.repository_url }}">Homework Assignment</a>
+      <a href="{{ session.practice.repository_url }}">
+        {% if session.practice.name %} {{session.practice.name}}
+        {% else %}Homework Assignment
+        {% endif %}
+      </a>
     </p>
     {% endif %}
 

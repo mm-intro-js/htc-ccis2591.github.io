@@ -20,7 +20,9 @@ sessions:
       -
         title: "Chapter 3 before coming to class"
 
-    repository_url: "https://github.com/htc-ccis2591/basic-javascript"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/basic-javascript"
+      name: "HW 1 - Basic JavaScript"
 
   - #Session 2
     lectures:
@@ -28,15 +30,14 @@ sessions:
         title: "Dev Tools and Debugging"
       -
         title: "Functions & Objects"
-#        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/welcome.pdf"
-
 
     readings:
       -
         title: "Chapter 3"
 
-    repository_url: "https://github.com/htc-ccis2591/simple-functions"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/simple-functions"
+      name: "HW 2 - Simple Functions"
 
 
   - #Session 3
@@ -52,7 +53,9 @@ sessions:
       -
         url: "https://github.com/htc-ccis2591/dom-access"
 
-    repository_url: "https://github.com/htc-ccis2591/grocery-list"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/grocery-list"
+      name: "HW 3 - Grocery List"
 
   - #Session 4
     lectures:
@@ -69,14 +72,14 @@ sessions:
         title: "Project 1: jQuery Favorite Things"
         url: "https://github.com/htc-ccis2591/jquery-fav-things"
 
-    repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/jquery-moonflowers"
+      name: "HW 4 - jQuery Moonflowers Coffee"
 
   - #Session 5
     lectures:
       -
         title: "More jQuery & Lab Time"
-#        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/events-jquery-intro.pdf"
 
     readings:
       -
@@ -90,8 +93,6 @@ sessions:
     lectures:
       -
         title: "Exam 1 & Project Presentations"
-#        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/events-jquery-intro.pdf"
 
     readings:
       -
@@ -101,10 +102,11 @@ sessions:
     lectures:
       -
         title: "Ajax & JSON"
-#        notes_url: "/lecture_notes/welcome.html"
         slides_url:  "/assets/slides/ajax-jquery-ch8.pdf"
 
-    repository_url: "https://github.com/htc-ccis2591/js-data"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/js-data"
+      name: "HW 5 - JavaScript & JSON Data"
 
     readings:
       -
@@ -118,7 +120,6 @@ sessions:
     lectures:
       -
         title: "Web APIs"
-#        notes_url: "/lecture_notes/welcome.html"
         slides_url:  "/assets/slides/web-apis-ch9.pdf"
 
     readings:
@@ -135,7 +136,6 @@ sessions:
         title: "Project 2 Presentations"
       -
         title: "Error Handling & Debugging"
-#        notes_url: "/lecture_notes/welcome.html"
         slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
 
   - #Session 10
@@ -145,9 +145,9 @@ sessions:
       -
         title: "More Web API's"
 
-    repository_url: "https://github.com/htc-ccis2591/simple-weather-app"
-#        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/simple-weather-app"
+      name: "HW 6 - Simple Weather App"
 
   - #Session 11
     lectures:
@@ -156,9 +156,9 @@ sessions:
         slides_url:  "/assets/slides/angular2.pdf"
         notes_url: "/lecture_notes/angularResources.html"
 
-    repository_url: "https://github.com/htc-ccis2591/simple-angular2"
-#        notes_url: "/lecture_notes/welcome.html"
-#        slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
+    practice:
+      repository_url: "https://github.com/htc-ccis2591/simple-angular2"
+      name: "HW 7 - Angular 2 Tutorial"
 
 
   - #Session 12
