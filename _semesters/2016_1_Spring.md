@@ -138,6 +138,9 @@ sessions:
         title: "Error Handling & Debugging"
         slides_url:  "/assets/slides/errors-debugging-ch10.pdf"
 
+      practice:
+        name: "HW 6 - JavaScript Error Handling Quiz (on D2L)"
+
   - #Session 10
     lectures:
       -
@@ -147,7 +150,7 @@ sessions:
 
     practice:
       repository_url: "https://github.com/htc-ccis2591/simple-weather-app"
-      name: "HW 6 - Simple Weather App"
+      name: "HW 7 - Simple Weather App"
 
   - #Session 11
     lectures:
@@ -158,7 +161,7 @@ sessions:
 
     practice:
       repository_url: "https://github.com/htc-ccis2591/simple-angular2"
-      name: "HW 7 - Angular 2 Tutorial"
+      name: "HW 8 - Angular 2 Tutorial"
 
 
   - #Session 12
