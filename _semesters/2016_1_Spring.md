@@ -182,7 +182,7 @@ sessions:
         title: "Final Exam 5/4"
 
     project:
-      url: "/assets/assignments/webdata.html"
+      url: "/assets/assignments/WebApiAssignment.pdf"
       title: "Project 3:  Web Data Project"
 
 
@@ -192,6 +192,6 @@ sessions:
         title: "Project Presentations 5/11"
 
     project:
-      url: "/assets/assignments/webdata.html"
+      url: "/assets/assignments/WebApiAssignment.pdf"
       title: "Project 3:  Web Data Project"
 ---
